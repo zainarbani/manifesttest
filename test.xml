@@ -9,4 +9,5 @@
     <project path="vendor/st21nfc" name="STMicroelectronics/ST54-android-vendor-st21nfc" remote="github" revision="st_dev_14"/>
     <project path="hardware/st/nfc" name="STMicroelectronics/ST54-android-hardware-st-nfc" remote="github" revision="st_dev_14"/>
 
+    <include name="test.xml"/>
 </manifest>
