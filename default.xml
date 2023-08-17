@@ -1313,5 +1313,5 @@
     changes to a custom manifest.  Please keep this marker here and
     refrain from making changes on or below it.
   -->
-  <include name="remove.xml"/>
+  <include name="test.xml"/>
 </manifest>
