@@ -83,5 +83,4 @@
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
     <remove-project name="kernel/tests" />
 
-    <include name="test.xml"/>
 </manifest>
