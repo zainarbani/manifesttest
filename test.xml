@@ -3,10 +3,11 @@
     <remote name="github"
             fetch="https://github.com"/>
 
-    <remove-project name="platform/hardware/st/nfc"/>
-    <project path="packages/apps/Nfc_st" name="STMicroelectronics/ST54-android-packages-apps-Nfc" remote="github" revision="st_dev_14"/>
-    <project path="system/nfc_st" name="STMicroelectronics/ST54-android-system-nfc" remote="github" revision="st_dev_14"/>
+    <project path="packages/apps/Nfc" name="STMicroelectronics/ST54-android-packages-apps-Nfc" remote="github" revision="st_dev_14"/>
+    <remove-project name="platform/system/nfc"/>
+    <project path="system/nfc" name="STMicroelectronics/ST54-android-system-nfc" remote="github" revision="st_dev_14"/>
     <project path="vendor/st21nfc" name="STMicroelectronics/ST54-android-vendor-st21nfc" remote="github" revision="st_dev_14"/>
+    <remove-project name="platform/hardware/st/nfc"/>
     <project path="hardware/st/nfc" name="STMicroelectronics/ST54-android-hardware-st-nfc" remote="github" revision="st_dev_14"/>
 
 </manifest>
